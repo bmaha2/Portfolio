@@ -47,5 +47,49 @@ table {
 	border-spacing: 0;
 }
 
+body{
+	box-sizing: border-box;	
+	padding: 20px 80px 20px 80px;
+}
 
-/*-----------logo------------------------*/
+h1,h2 {
+	
+	font-weight: bolder;
+	padding: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+
+}
+h1 {
+	background-color: #4aaaa5;
+	color:#fff;
+}
+/*-------------------main header--------*/
+h2{
+	background-color: #fff;
+	color: #4aaaa5;
+}
+
+.card .card-header {
+	background-color: #fff;
+	border-bottom: 1px solid #cccccc;
+}
+/*-------------navbar-------------------*/
+.navbar-nav, .nav-item, .nav-link {
+	font-family: Arial, 'Helvetica Neue' , Helvetica, sans-serif;
+	padding: 5px;
+}
+
+/*--------------footer-----------------*/
+.card-footer {
+	border-top: 8px solid #4aaaa5;
+	background-color: #666666;
+	color: #fff;
+	text-align: center;
+	font-size:xx-small;
+	font-family: Arial, 'Helvetica Neue' , Helvetica, sans-serif;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
