@@ -1,5 +1,5 @@
 
-body{
+body {
 	box-sizing: border-box;	
 	margin: 0;
 	padding: 0;
@@ -46,6 +46,7 @@ h2{
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 1.5;
+		
 }
 
 /*---------------------main content----------------------------*/
@@ -92,4 +93,21 @@ h5 {
 	width: 160px;
 	margin-left: -20px;
 	text-align: center;	
+}
+img {
+	position: relative;
+	
+}
+.card-title {
+	position: absolute;
+	top: 65%;
+	bottom: 15%;
+}
+.card-body {
+	padding: 0;
+	margin-left: 20px;
+}
+.image {
+	float: left;
+	margin-right: 10px;	
 }
