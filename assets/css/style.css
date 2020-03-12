@@ -3,7 +3,27 @@ body {
 	box-sizing: border-box;	
 	margin: 0;
 	padding: 0;
+	background-color: #e3e7eb;
+	
+	
 }
+/*-------------------------main container----------------------*/
+.container {
+	margin-top: 40px;
+}
+/*---------------------background pattern--------------------*/
+.bg-pattern {
+	width: 100%;
+    background-image: url("../images/redox_02.png");
+    background-size: cover;
+	background-position: center;	
+}
+
+.bg-header {	
+	background-color:#f0f6fa;	
+	
+}
+
 /*---------------------navbar and heading headers---------------*/
 h1, h2, h5 {
 	font-weight: bolder;
@@ -14,17 +34,22 @@ h1, h5 {
 	background-color: #128b60;
 	color:#fff;
 }
+
 h2{
-	background-color: #fff;
 	color:#128b60;
 	margin-left: -16px;	
+}
+
+.navbar {
+	padding: 0;
 }
 .navbar-nav, .nav-item, .nav-link {
 	font-family: Arial, 'Helvetica Neue' , Helvetica, sans-serif;
 }
 .navbar-brand {
 	margin-bottom:0;
-	margin-left:-12px;
+	margin-left: 20px;
+	padding: 0;
 }
 .first-link,.second-link {
 	border-right: 1px solid #666666;	
@@ -33,15 +58,11 @@ h2{
 .third-link {
 	line-height: 10px;
 }
-/*-------------------------main container----------------------*/
-.container {
-	width: 960px;
-}
 /*------------------------inside container---------------------*/
 .inside-container {
 	width: 60%;	
-	background-color: #fff;
-	padding: 5px;
+	background-color: #fff;	
+	margin-left: 30px;
 }
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -53,30 +74,11 @@ p {
 .card .card-header {
 	background-color: #fff;
 	border-bottom: 2px solid #cccccc;
-	
 }
-/*------------------------footer------------------------------*/
-.card-footer {
-	border-top: 8px solid #128b60;
-	background-color: #666666;
-	color: #fff;
-	text-align: center;
-	font-size:xx-small;
-	font-family: Arial, 'Helvetica Neue' , Helvetica, sans-serif;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-}
-/*---------------------background pattern--------------------*/
-.bg-pattern {	
-    width: 100%;
-    background-image: url("../images/redox_02.png");
-    background-size: cover;
-	background-position: center;
-	padding: 40px 0 120px 0;
-	margin-top: -12px;
-	border-top: 3px solid #cccccc;	
+/*----------------------About-------------------------------*/
+.image {
+	float: left;
+	margin-right: 10px;	
 }
 /*----------------------Contact-----------------------------*/
 .submit-btn {
@@ -90,13 +92,12 @@ p {
 
 /*-----------------------Portfolio-------------------------*/
 h5 {
-	width: 160px;
+	width: 100%;	
 	margin-left: -20px;
-	text-align: center;	
+	text-align: center;		
 }
 img {
 	position: relative;
-	
 }
 .card-title {
 	position: absolute;
@@ -107,7 +108,14 @@ img {
 	padding: 0;
 	margin-left: 20px;
 }
-.image {
-	float: left;
-	margin-right: 10px;	
+/*------------------------footer------------------------------*/
+.card-footer {
+	border-top: 8px solid #128b60;
+	background-color: #666666;
+	color: #fff;
+	text-align: center;
+	font-size:small;
+	font-family: Arial, 'Helvetica Neue' , Helvetica, sans-serif;
+	width: 100%;
+	margin-top: 80px;
 }
