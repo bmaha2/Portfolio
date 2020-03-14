@@ -43,6 +43,9 @@ h2{
 	margin-left: 20px;
 	padding: 0;
 }
+.nav-link{
+	font-size: 20px;
+}
 .first-link,.second-link {
 	border-right: 1px solid #666666;	
 	line-height: 10px;
