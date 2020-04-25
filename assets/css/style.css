@@ -24,7 +24,10 @@ h1, h2, h5 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-bottom: 0;
 }
-h1, h5 {
+h1 {
+	color:#128b60 ;
+}
+ h5 {
 	background-color: #128b60;
 	color:#fff;
 }
@@ -99,9 +102,9 @@ img {
 }
 .card-title {
 	position: absolute;
-	top: 65%;
-	bottom: 15%;
-}
+	top: 95%;
+	bottom: -10%;
+ }  
 .card-body {
 	padding: 0;
 	margin-left: 20px;
@@ -126,4 +129,7 @@ img {
 }
 .card-footer #phone span {
 	margin: 5px;
+}
+h5 a {
+	color:#fff;
 }
