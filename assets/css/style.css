@@ -133,3 +133,6 @@ img {
 h5 a {
 	color:#fff;
 }
+li a span {
+	font-size: 20px;
+}
