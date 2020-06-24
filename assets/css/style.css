@@ -109,6 +109,9 @@ img {
 	padding: 0;
 	margin-left: 20px;
 }
+.submit {
+	padding-bottom: 5px;
+}
 /*------------------------footer------------------------------*/
 .card-footer {
 	display: flex;
