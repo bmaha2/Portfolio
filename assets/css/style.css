@@ -92,6 +92,9 @@ p {
 	font-family: Arial, 'Helvetica Neue' , Helvetica, sans-serif;
 }
 /*-----------------------Portfolio-------------------------*/
+.card-header {
+	background-color: #f0f6fa !important;
+}
 h5 {
 	width: 100%;	
 	margin-left: -20px;
@@ -100,11 +103,9 @@ h5 {
 img {
 	position: relative;
 }
-.card-title {
-	position: absolute;
-	top: 95%;
-	bottom: -10%;
- }  
+.card-link {
+	margin-left: 0 !important;
+}
 .card-body {
 	padding: 0;
 	margin-left: 20px;
