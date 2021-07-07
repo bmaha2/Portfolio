@@ -128,7 +128,7 @@ img {
 	color: #fff;
 }
 .card-footer #phone span {
-	margin: 5px;
+	margin-right: 5px;
 }
 h5 a {
 	color:#fff;
@@ -136,3 +136,16 @@ h5 a {
 li a span {
 	font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+	  font-size: x-large;
+  }
+  .card-footer {
+	  display:block;
+	  padding: 10px;
+  }
+  
+	
+  }
+  
